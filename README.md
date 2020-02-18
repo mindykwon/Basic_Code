@@ -5,6 +5,7 @@ docker pull ratsgo/embedding-cpu
 docker run -it --rm ratsgo/embedding-cpu bash
 
 git pull origin master
+
 bash preprocess.sh dump-tokenized
 
 cd /notebooks/embedding
